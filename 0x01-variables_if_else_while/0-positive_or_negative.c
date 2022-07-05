@@ -7,7 +7,7 @@
 
 
 /**
-*main – prints the size of various types
+*main – assigns a random number to the variable n each time it is executed
 *Return: 0 if exited properly, otherwise non-zero
 */
 
@@ -23,9 +23,9 @@ int main(void)
 
 				n = rand() - RAND_MAX / 2;
 
-				if (n > 1)
+				if (n > 0)
 				{
-					printf("%d is postive \n", n);
+					printf("%d is postive\n ", n);
 				}
 				else if (n == 0)
 				{
