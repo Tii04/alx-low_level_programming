@@ -1,14 +1,12 @@
 #include <stdlib.h>
-
 #include <time.h>
 #include <stdio.h>
 
-
-
 /**
-*main - assign a random number to the variable n each time it is executed.
-*Return: 0 if exited properly, otherwise non-zero number.
-*/
+ * main - will assign a random number to the
+ * variable n each time it is executed.
+ * Return: 0 if exited properly, otherwise non-zero.
+ */
 
 int main(void)
 
