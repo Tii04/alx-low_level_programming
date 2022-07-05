@@ -1,16 +1,11 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
-
-
 
 /**
 *main – assigns a random number to the variable n each time it is executed
 *Return: 0 if exited properly, otherwise non-zero
 */
-
 int main(void)
 
 {
@@ -25,7 +20,7 @@ int main(void)
 
 				if (n > 0)
 				{
-					printf("%d is postive\n ", n);
+					printf("%d is postive\n", n);
 				}
 				else if (n == 0)
 				{
