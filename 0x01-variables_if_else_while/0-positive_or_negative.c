@@ -25,7 +25,7 @@ int main(void)
 
 				if (n > 1)
 				{
-					printf("%d is postive\n", n);
+					printf("%d is postive \n", n);
 				}
 				else if (n == 0)
 				{
