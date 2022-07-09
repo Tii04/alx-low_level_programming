@@ -2,7 +2,7 @@
 
 /**
  * print_square - prints a square, followed by a new line.
- * @size: integer of type size as argument.
+ * @size: Parameter size of type int as argument.
  * Return: void.
  */
 void print_square(int size)
@@ -18,9 +18,7 @@ void print_square(int size)
 		for (i = 0; i < size; i++)
 		{
 			for (y = 0; y < i; y++)
-			{
 				_putchar(35);
-			}
 			_putchar('\n');
 		}
 	}
