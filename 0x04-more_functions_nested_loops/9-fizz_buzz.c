@@ -8,7 +8,9 @@ int fizz_buzz(void)
 {
 	int i;
 
-	while (i <= 100)
+	int p = 100;
+
+	while (i <= p)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
