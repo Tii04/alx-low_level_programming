@@ -4,6 +4,7 @@
  * fizz_buzz - prints numbers 1 - 100.
  * Return: void.
  */
+
 int fizz_buzz(void)
 {
 	int i;
@@ -25,7 +26,9 @@ int fizz_buzz(void)
 			printf("Buzz ");
 		}
 		else
+		{
 			printf("%d ", i);
+		}
 		i++;
 	}
 		printf("\n");
