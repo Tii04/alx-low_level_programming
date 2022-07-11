@@ -4,3 +4,4 @@ Task 1. Writes a script that prints the alphabet from a to z in lowercase.
 Task 2. Writes a function that prints 10 times the alphabet, in lowercase, followed by a new line.
 Task 3. Writes a program that checks if the character c is lowercase and returns 1 if it is.
 Task 4. Writes a function that checks for alphabetic character.
+Task 5. A function that prints the sign of a number.
