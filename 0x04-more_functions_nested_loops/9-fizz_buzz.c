@@ -1,16 +1,14 @@
-#include "main.h"
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
  * fizz_buzz - prints numbers 1 - 100.
  * Return: void.
  */
-void fizz_buzz(void)
+int fizz_buzz(void)
 {
 	int i;
 
-	for (i = 1; i <= 100; i++)
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -26,6 +24,8 @@ void fizz_buzz(void)
 		}
 		else
 			printf("%d ", i);
+		i++;
 	}
 		printf("\n");
+		return (0);
 }
