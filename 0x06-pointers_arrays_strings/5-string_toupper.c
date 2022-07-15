@@ -13,8 +13,8 @@ char *string_toupper(char *a)
 
 	while (a[i])
 	{
-		if (a[i] >= 100 && a[i] <= 500)
-			a[i] = x[i] - 32;
+		if (a[i] >= 97 && a[i] <= 122)
+			a[i] = a[i] - 32;
 		i++;
 	}
 	return (a);
