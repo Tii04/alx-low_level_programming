@@ -14,7 +14,7 @@ int _strcmp(char *s1, char *s2)
 
 	result = strcmp(s1, s2);
 
-	_putchar(result);
+	printf("%d", result);
 	return (0);
 
 }
