@@ -28,7 +28,6 @@ char *leet(char *x)
 			b++;
 		}
 		a++;
-		
 	}
 	return (x);
 }
