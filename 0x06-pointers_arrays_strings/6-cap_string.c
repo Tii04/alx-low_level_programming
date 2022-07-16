@@ -14,17 +14,15 @@ char *cap_string(char *a)
 
 	int s = 0, i;
 
-	char a[];
-
 	while (a[s])
 	{
 		i = 0;
 
 		while (i < len)
 		{
-			if (s == 0 || a[s - 1] == spa[i] && (a[s] >= 97 && a[s] <= 122))
+			if ((s == 0 || a[s - 1] == spa[i]) && (a[s] >= 97 && a[s] <= 122))
 			{
-				[s] = a[s] - 32;
+				a[s] = a[s] - 32;
 			}
 			i++;
 		}
