@@ -11,8 +11,19 @@
  */
 
 char *_memset(char *s, char b, unsigned int n)
+
+	unsigned int a;
 {
-	memset(s, b, sizeof(unsigned int) * 10);
+	for (a = 0; a < n; a++)
+	{
+		s[a] = b;
+	}
+
+	for (int a = 0; a < n; a++)
+	{
+		_putchar(s[a]);
+	}
+	_putchar('\n');
 
 	return (s);
 }
