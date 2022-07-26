@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints program name.
@@ -7,8 +7,9 @@
  * Return: string array.
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
-	_putchar(argv);
-	_putchar('\n');
+	printf("%s\n",argv[0]);
+	(void)argc;
+	return (0);
 }
