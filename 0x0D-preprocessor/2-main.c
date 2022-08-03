@@ -1,5 +1,5 @@
 #include <stdlib.h>
-
+#include "_putchar.c"
 /**
  * main - prints where file
  * was compiled from.
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	_putchar(__FILE__);
+	_putchar(*__FILE__);
 
 	return (0);
 }
