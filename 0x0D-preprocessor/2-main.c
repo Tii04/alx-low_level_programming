@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	_putcha(__FILE__);
+	_putchar(__FILE__);
 
 	return (0);
 }
