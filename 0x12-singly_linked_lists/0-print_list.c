@@ -1,5 +1,6 @@
 #include "lists.h"
 
+
 /**
  * print_list - pints all elements of list_t list.
  * @h: pointer to first node.
@@ -8,22 +9,20 @@
 
 size_t print_list(const list_t *h)
 {
-	size_t count = 0;
-
-	if (str == NULL)
+	while (h != NULL)
 	{
-		printf("[0] (nil)");
-	}
-	list_t *ptr = NULL;
+		size_t count = 0;
 
-	ptr = h;
+		if (h->str == NULL)
+		{
+			printf("[%d] %s", 0, "(nil)");
+		}
+		else
+			printf("[%d] %s", h->len, h->str);
 
-	while (ptr != NULL)
-	{
+		h = h->next;
 		count++;
-		ptr = ptr->next;
 	}
-	printf("%lu", count);
-	return (0);
+	return (count);
 
 }
