@@ -1,7 +1,10 @@
 #include "main.h"
+
 /**
-* jack_bauer -> prints 24 hours
-*/
+ * jack_bauer - prints time/
+ * Return: time.
+ */
+
 void jack_bauer(void)
 {
 	int i, j;
