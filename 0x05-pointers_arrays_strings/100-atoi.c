@@ -1,13 +1,11 @@
-#include main.h
+#include "main.h"
 
 /**
- *  * _atoi - main function.
- *   * @s: Pointer to the string.
- *    *
- *     * Description: This function convert a string to an integer.
- *      *
- *       * Return: The integer value of string.
- *        */
+ *  _atoi - main function.
+ * @s: Pointer to the string.
+ * Description: This function convert a string to an integer.
+ * Return: The integer value of string.
+ */
 
 int _atoi(char *s)
 {
