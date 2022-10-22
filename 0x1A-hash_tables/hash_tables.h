@@ -28,7 +28,7 @@ typedef struct hash_node_s
  * @array: An array of size @size
  * Each cell of this array is a pointer to the first node of a linked list,
  * because we want our HashTable to use a Chaining collision handling
- */i
+ */
 
 typedef struct hash_table_s
 {
