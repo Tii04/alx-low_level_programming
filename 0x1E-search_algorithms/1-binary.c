@@ -42,8 +42,6 @@ int binary_search(int *array, size_t size, int value)
 
 	while (left < right)
 	{
-		if (left == 0 && right == 0)
-			return (-1);
 		middle = (left + right) / 2;
 
 		ele_pr(array, left, right);
